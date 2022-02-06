@@ -7,18 +7,14 @@ const HomePage = () => {
 
     const onStart = async () => {
 
-        await push('start', {
-            source: 'remote'
-        })
+        await push('start', { })
         
         setStarted(true);
     }
 
     const onStop = async () => {
 
-        await push('stop', {
-            source: 'remote'
-        })
+        await push('stop', { })
 
         setStarted(false);
     }
