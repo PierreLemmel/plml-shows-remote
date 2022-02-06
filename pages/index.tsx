@@ -7,7 +7,7 @@ const HomePage = () => {
 
     const onStart = async () => {
 
-        await push('stop', {
+        await push('start', {
             source: 'remote'
         })
         
